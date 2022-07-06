@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>Nova</title>
+
+		<link rel="stylesheet" href="dist/reset.css" />
+		<link rel="stylesheet" href="dist/reveal.css" />
+		<link rel="stylesheet" href="dist/theme/black.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" />
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Care Services</h1>
+					<h3>Data Exploration</h3>
+					<div>
+						<img src="images/VU_logo.png" />
+						<img src="images/logo_han.jpeg" />
+					</div>
+				</section>
+				<section>
+					<h1>Introduction</h1>
+				</section>
+				<section>
+					<iframe
+						src="charts/datasource.html"
+						frameborder="0"
+						width="1000"
+						height="569"
+						allowfullscreen="true"
+						mozallowfullscreen="true"
+						webkitallowfullscreen="true"
+					></iframe>
+				</section>
+				<section>
+					<section>
+						<h1>All services</h1>
+					</section>
+					<section>
+						<iframe
+							src="charts/clientlocations.html"
+							frameborder="0"
+							width="1000"
+							height="569"
+							allowfullscreen="true"
+							mozallowfullscreen="true"
+							webkitallowfullscreen="true"
+						></iframe>
+					</section>
+					<section>
+						<iframe
+							src="charts/clientspermonth.html"
+							frameborder="0"
+							width="1000"
+							height="569"
+							allowfullscreen="true"
+							mozallowfullscreen="true"
+							webkitallowfullscreen="true"
+						></iframe>
+					</section>
+					<section>
+						<iframe
+							src="charts/typesservicesteams.html"
+							frameborder="0"
+							width="1000"
+							height="569"
+							allowfullscreen="true"
+							mozallowfullscreen="true"
+							webkitallowfullscreen="true"
+						></iframe>
+					</section>
+					<section>
+						<iframe
+							src="charts/weeklymovesbox.html"
+							frameborder="0"
+							width="1000"
+							height="569"
+							allowfullscreen="true"
+							mozallowfullscreen="true"
+							webkitallowfullscreen="true"
+						></iframe>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Service: Verpleging</h1>
+					</section>
+					<section>
+						<iframe
+							src="charts/newclientsperweekverpleging.html"
+							frameborder="0"
+							width="1000"
+							height="569"
+							allowfullscreen="true"
+							mozallowfullscreen="true"
+							webkitallowfullscreen="true"
+						></iframe>
+					</section>
+					<section>
+						<iframe
+							src="charts/weeklymovesboxverpleging.html"
+							frameborder="0"
+							width="1000"
+							height="569"
+							allowfullscreen="true"
+							mozallowfullscreen="true"
+							webkitallowfullscreen="true"
+						></iframe>
+					</section>
+					<section>
+						<iframe
+							src="charts/weeklymoveshistverpleging.html"
+							frameborder="0"
+							width="1000"
+							height="569"
+							allowfullscreen="true"
+							mozallowfullscreen="true"
+							webkitallowfullscreen="true"
+						></iframe>
+					</section>
+					<section>
+						<iframe
+							src="charts/weeklydurationsboxverpleging.html"
+							frameborder="0"
+							width="1000"
+							height="569"
+							allowfullscreen="true"
+							mozallowfullscreen="true"
+							webkitallowfullscreen="true"
+						></iframe>
+					</section>
+					<section>
+						<iframe
+							src="charts/weeklydurationshistverpleging.html"
+							frameborder="0"
+							width="1000"
+							height="569"
+							allowfullscreen="true"
+							mozallowfullscreen="true"
+							webkitallowfullscreen="true"
+						></iframe>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			});
+		</script>
+	</body>
+</html>
